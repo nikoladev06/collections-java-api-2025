@@ -10,7 +10,7 @@ public class AgendaContatos {
         this.contatoSet = new HashSet<>();
     }
 
-    public void adicionarContado(String nome, int numero) {
+    public void adicionarContato(String nome, int numero) {
         contatoSet.add(new Contato(nome, numero));
     }
 
@@ -46,11 +46,11 @@ public class AgendaContatos {
 
         agendaContatos.exibirContatos();
 
-        agendaContatos.adicionarContado("Maria", 1698988842);
-        agendaContatos.adicionarContado("Maria", 256665985);
-        agendaContatos.adicionarContado("Maria Silva", 1699856241);
-        agendaContatos.adicionarContado("Maria Eduarda", 1698985123);
-        agendaContatos.adicionarContado("Robson", 1698985116);
+        agendaContatos.adicionarContato("Maria", 1698988842);
+        agendaContatos.adicionarContato("Maria", 256665985);
+        agendaContatos.adicionarContato("Maria Silva", 1699856241);
+        agendaContatos.adicionarContato("Maria Eduarda", 1698985123);
+        agendaContatos.adicionarContato("Robson", 1698985116);
 
         agendaContatos.exibirContatos();
         System.out.println(agendaContatos.pesquisarPorNome("Robson"));
